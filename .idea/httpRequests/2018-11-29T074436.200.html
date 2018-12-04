@@ -1,0 +1,172 @@
+<?phpeditEmpresa
+
+namespace App\Exceptions;
+
+use Exception;
+use Illuminate\Validation\ValidationException;
+use Illuminate\Auth\Access\AuthorizationException;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
+use Laravel\Lumen\Exceptions\Handler as ExceptionHandler;
+use Symfony\Component\HttpKernel\Exception\HttpException;
+
+class Handler extends ExceptionHandler
+{
+    /**
+     * A list of the exception types that should not be reported.
+     *
+     * @var array
+     */
+    protected $dontReport = [
+        AuthorizationException::class,
+        HttpException::class,
+        ModelNotFoundException::class,
+        ValidationException::class,
+    ];
+
+    /**
+     * Report or log an exception.
+     *
+     * This is a great spot to send exceptions to Sentry, Bugsnag, etc.
+     *
+     * @param  \Exception  $exception
+     * @return void
+     */
+    public function report(Exception $exception)
+    {
+        parent::report($exception);
+    }
+
+    /**
+     * Render an exception into an HTTP response.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \Exception  $exception
+     * @return \Illuminate\Http\Response
+     */
+    public function render($request, Exception $exception)
+    {
+        return parent::render($request, $exception);
+    }
+}
+<?phpeditEmpresa
+
+namespace App\Exceptions;
+
+use Exception;
+use Illuminate\Validation\ValidationException;
+use Illuminate\Auth\Access\AuthorizationException;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
+use Laravel\Lumen\Exceptions\Handler as ExceptionHandler;
+use Symfony\Component\HttpKernel\Exception\HttpException;
+
+class Handler extends ExceptionHandler
+{
+    /**
+     * A list of the exception types that should not be reported.
+     *
+     * @var array
+     */
+    protected $dontReport = [
+        AuthorizationException::class,
+        HttpException::class,
+        ModelNotFoundException::class,
+        ValidationException::class,
+    ];
+
+    /**
+     * Report or log an exception.
+     *
+     * This is a great spot to send exceptions to Sentry, Bugsnag, etc.
+     *
+     * @param  \Exception  $exception
+     * @return void
+     */
+    public function report(Exception $exception)
+    {
+        parent::report($exception);
+    }
+
+    /**
+     * Render an exception into an HTTP response.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \Exception  $exception
+     * @return \Illuminate\Http\Response
+     */
+    public function render($request, Exception $exception)
+    {
+        return parent::render($request, $exception);
+    }
+}
+<br />
+<b>Fatal
+    error</b>:  Uncaught ReflectionException: Class App\Exceptions\Handler does not exist in /srv/http/bludata/projeto-teste/vendor/illuminate/container/Container.php:779
+Stack trace:
+#0 /srv/http/bludata/projeto-teste/vendor/illuminate/container/Container.php(779): ReflectionClass-&gt;__construct('App\\Exceptions\\...')
+#1 /srv/http/bludata/projeto-teste/vendor/illuminate/container/Container.php(658): Illuminate\Container\Container-&gt;build('App\\Exceptions\\...')
+#2 /srv/http/bludata/projeto-teste/vendor/illuminate/container/Container.php(609): Illuminate\Container\Container-&gt;resolve('App\\Exceptions\\...', Array)
+#3 /srv/http/bludata/projeto-teste/vendor/laravel/lumen-framework/src/Application.php(260): Illuminate\Container\Container-&gt;make('App\\Exceptions\\...', Array)
+#4 /srv/http/bludata/projeto-teste/vendor/illuminate/container/Container.php(264): Laravel\Lumen\Application-&gt;make('App\\Exceptions\\...', Array)
+#5 /srv/http/bludata/projeto-teste/vendor/illuminate/container/Container.php(776): Illuminate\Container\Container-&gt; in
+<b>/srv/http/bludata/projeto-teste/vendor/illuminate/container/Container.php</b> on line <b>779</b><br/>
+<?phpeditEmpresa
+
+namespace App\Exceptions;
+
+use Exception;
+use Illuminate\Validation\ValidationException;
+use Illuminate\Auth\Access\AuthorizationException;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
+use Laravel\Lumen\Exceptions\Handler as ExceptionHandler;
+use Symfony\Component\HttpKernel\Exception\HttpException;
+
+class Handler extends ExceptionHandler
+{
+    /**
+     * A list of the exception types that should not be reported.
+     *
+     * @var array
+     */
+    protected $dontReport = [
+        AuthorizationException::class,
+        HttpException::class,
+        ModelNotFoundException::class,
+        ValidationException::class,
+    ];
+
+    /**
+     * Report or log an exception.
+     *
+     * This is a great spot to send exceptions to Sentry, Bugsnag, etc.
+     *
+     * @param  \Exception  $exception
+     * @return void
+     */
+    public function report(Exception $exception)
+    {
+        parent::report($exception);
+    }
+
+    /**
+     * Render an exception into an HTTP response.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \Exception  $exception
+     * @return \Illuminate\Http\Response
+     */
+    public function render($request, Exception $exception)
+    {
+        return parent::render($request, $exception);
+    }
+}
+<br />
+<b>Fatal
+    error</b>:  Uncaught ReflectionException: Class App\Exceptions\Handler does not exist in /srv/http/bludata/projeto-teste/vendor/illuminate/container/Container.php:779
+Stack trace:
+#0 /srv/http/bludata/projeto-teste/vendor/illuminate/container/Container.php(779): ReflectionClass-&gt;__construct('App\\Exceptions\\...')
+#1 /srv/http/bludata/projeto-teste/vendor/illuminate/container/Container.php(658): Illuminate\Container\Container-&gt;build('App\\Exceptions\\...')
+#2 /srv/http/bludata/projeto-teste/vendor/illuminate/container/Container.php(609): Illuminate\Container\Container-&gt;resolve('App\\Exceptions\\...', Array)
+#3 /srv/http/bludata/projeto-teste/vendor/laravel/lumen-framework/src/Application.php(260): Illuminate\Container\Container-&gt;make('App\\Exceptions\\...', Array)
+#4 /srv/http/bludata/projeto-teste/vendor/illuminate/container/Container.php(264): Laravel\Lumen\Application-&gt;make('App\\Exceptions\\...', Array)
+#5 /srv/http/bludata/projeto-teste/vendor/illuminate/container/Container.php(776): Illuminate\Container\Container-&gt; in
+<b>/srv/http/bludata/projeto-teste/vendor/illuminate/container/Container.php</b> on line <b>779</b><br/>

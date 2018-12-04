@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "estado_id": 1,
+    "nome_fant": "Beto Solu\u00e7\u00f5es alt",
+    "cnpj": "03.902.674.0001-70"
+  },
+  {
+    "id": 2,
+    "estado_id": 1,
+    "nome_fant": "Beto Solu\u00e7\u00f5es",
+    "cnpj": "03.902.674.0001-70"
+  },
+  {
+    "id": 3,
+    "estado_id": 1,
+    "nome_fant": "Beto Solu\u00e7\u00f5es",
+    "cnpj": "03.902.674.0001-70"
+  },
+  {
+    "id": 4,
+    "estado_id": 1,
+    "nome_fant": "Beto Solu\u00e7\u00f5es",
+    "cnpj": "03.902.674.0001-70"
+  },
+  {
+    "id": 5,
+    "estado_id": 1,
+    "nome_fant": "Beto Solu\u00e7\u00f5es alt",
+    "cnpj": "03.902.674.0001-70"
+  }
+]

@@ -1,0 +1,518 @@
+PUT http://localhost/bludata/projeto-teste/public/fornecedor
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 5,   "nome": "Fornecedor 1 alt",   "tipo": "F",   "rg": "4086951805",   "data_nasc": "1991-04-06",   "cpf": "024.523.280-06", "emp_id": 1 }
+
+###
+
+PUT http://localhost/bludata/projeto-teste/public/fornecedor
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"forn_id": 5,   "nome": "Fornecedor 1 alt",   "tipo": "F",   "rg": "4086951805",   "data_nasc": "1991-04-06",   "cpf": "024.523.280-06", "emp_id": 1 }
+
+<> 2018-12-01T120032.500.html
+
+###
+
+PUT http://localhost/bludata/projeto-teste/public/fornecedor
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"forn_id": 5,   "nome": "Fornecedor 1 alt",   "tipo": "F",   "rg": "4086951805",   "data_nasc": "1991-04-06",   "cpf": "024.523.280-06", "emp_id": 1 }
+
+<> 2018-12-01T120017.200.html
+
+###
+
+PUT http://localhost/bludata/projeto-teste/public/fornecedor
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"forn_id": 5,   "nome": "Fornecedor 1 alt",   "tipo": "F",   "rg": "4086951805",   "data_nasc": "1991-04-06",   "cpf": "024.523.280-06", "emp_id": 1 }
+
+<> 2018-12-01T115841.200.html
+
+###
+
+PUT http://localhost:3000/fornecedor
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"forn_id": 5,   "nome": "Fornecedor 1 alt",   "tipo": "F",   "rg": "4086951805",   "data_nasc": "1991-04-06",   "cpf": "024.523.280-06", "emp_id": 1 }
+
+###
+
+PUT http://localhost:3000/fornecedor
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"forn_id": 5,   "nome": "Fornecedor 1 alt",   "tipo": "F",   "rg": "4086951805",   "data_nasc": "1991-04-06",   "cpf": "024.523.280-06", "emp_id": 1 }
+
+###
+
+PUT http://localhost:3000/fornecedor
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"forn_id": 5,   "nome": "Fornecedor 1 alt",   "tipo": "F",   "rg": "4086951805",   "data_nasc": "1991-04-06",   "cpf": "024.523.280-06", "emp_id": 1 }
+
+###
+
+PUT http://localhost/bludata/projeto-teste/public/fornecedor
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"forn_id": 5,   "nome": "Fornecedor 1 alt",   "tipo": "F",   "rg": "4086951805",   "data_nasc": "1991-04-06",   "cpf": "024.523.280-06", "emp_id": 1 }
+
+<> 2018-12-01T115746.200.html
+
+###
+
+PUT http://localhost/bludata/projeto-teste/public/fornecedor
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"forn_id": 5,   "nome": "Fornecedor 1 alt",   "tipo": "F",   "rg": "4086951805",   "data_nasc": "1991-04-06",   "cpf": "024.523.280-06", "emp_id": 1 }
+
+<> 2018-12-01T115435.200.html
+
+###
+
+POST http://localhost/bludata/projeto-teste/public/fornecedor
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "nome": "Fornecedor 1",   "tipo": "F",   "rg": "4086951805",   "data_nasc": "1991-04-06",   "cpf": "024.523.280-06", "emp_id": 1 }
+
+<> 2018-12-01T102954.200.html
+
+###
+
+POST http://localhost/bludata/projeto-teste/public/fornecedor
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "nome": "Fornecedor 1",   "tipo": "F",   "rg": "4086951805",   "data_nasc": "06/04/1991",   "cpf": "024.523.280-06", "emp_id": 1 }
+
+<> 2018-12-01T102639.500.html
+
+###
+
+POST http://localhost/bludata/projeto-teste/public/fornecedor
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "nome": "Fornecedor 1",   "tipo": "F",   "rg": "4086951805",   "data_nasc": "06/04/1991",   "cpf": "024.523.280-06", "emp_id": 1 }
+
+<> 2018-12-01T102125.500.html
+
+###
+
+POST http://localhost/bludata/projeto-teste/public/fornecedor
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "nome": "Fornecedor 1",   "tipo": "F",   "rg": "4086951805",   "data_nasc": "06/04/1991",   "cpf": "024.523.280-06", "emp_id": 1 }
+
+<> 2018-12-01T102019.500.html
+
+###
+
+POST http://localhost/bludata/projeto-teste/public/fornecedor
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "nome": "Fornecedor 1",   "tipo": "F",   "rg": "4086951805",   "data_nasc": "06/04/1991",   "cpf": "024.523.280-06", "emp_id": 1 }
+
+<> 2018-12-01T101945.200.html
+
+###
+
+POST http://localhost/bludata/projeto-teste/public/fornecedor
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "nome": "Fornecedor 1",   "tipo": "F",   "rg": "4086951805",   "data_nasc": "06/04/1991",   "cpf": "024.523.280-06", "emp_id": 1 }
+
+<> 2018-12-01T101850.500.html
+
+###
+
+POST http://localhost/bludata/projeto-teste/public/fornecedor
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "nome": "Fornecedor 1",   "tipo": "F",   "rg": "4086951805",   "data_nasc": "06/04/1991",   "cpf": "024.523.280-06" }
+
+<> 2018-12-01T101817.500.html
+
+###
+
+POST http://localhost/bludata/projeto-teste/public/fornecedor
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "nome": "Fornecedor 1",   "tipo": "F",   "rg": "4086951805",   "data_nasc": "06/04/1991",   "cpf": "024.523.280-06" }
+
+<> 2018-12-01T101425.500.html
+
+###
+
+GET http://localhost/bludata/projeto-teste/public/fornecedor
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções alt","cnpj":"03.902.674.0001-70"}
+
+###
+
+GET http://localhost/bludata/projeto-teste/public/empresa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções alt","cnpj":"03.902.674.0001-70"}
+
+<> 2018-11-29T080256.200.json
+
+###
+
+POST http://localhost/bludata/projeto-teste/public/empresa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções alt","cnpj":"03.902.674.0001-70"}
+
+<> 2018-11-29T075721.200.html
+
+###
+
+PUT http://localhost/bludata/projeto-teste/public/empresa/1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções alt","cnpj":"03.902.674.0001-70"}
+
+###
+
+PUT http://localhost/bludata/projeto-teste/public/empresa/1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+###
+
+PUT http://localhost/bludata/projeto-teste/public/empresa/1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+<> 2018-11-29T075539.200.html
+
+###
+
+PUT http://localhost/bludata/projeto-teste/public/empresa/1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+###
+
+PUT http://localhost/bludata/projeto-teste/public/empresa/1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+<> 2018-11-29T074902.200.html
+
+###
+
+PUT http://localhost/bludata/projeto-teste/public/empresa/1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+<> 2018-11-29T074855.200.html
+
+###
+
+PUT http://localhost/bludata/projeto-teste/public/empresa/1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+<> 2018-11-29T074837.200.html
+
+###
+
+PUT http://localhost/bludata/projeto-teste/public/empresa/1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+<> 2018-11-29T074830.200.html
+
+###
+
+PUT http://localhost/bludata/projeto-teste/public/empresa/1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+###
+
+PUT http://localhost/bludata/projeto-teste/public/empresa/1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+<> 2018-11-29T074718.200.html
+
+###
+
+PUT http://localhost/bludata/projeto-teste/public/empresa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+<> 2018-11-29T074712.405.html
+
+###
+
+PUT http://localhost/bludata/projeto-teste/public/empresa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+<> 2018-11-29T074520.405.html
+
+###
+
+PUT http://localhost/bludata/projeto-teste/public/empresa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+<> 2018-11-29T074436.200.html
+
+###
+
+PUT http://localhost/bludata/projeto-teste/public/empresa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+<> 2018-11-29T074254.200.html
+
+###
+
+PUT http://localhost/bludata/projeto-teste/public/empresa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+<> 2018-11-29T074215.200.html
+
+###
+
+POST http://localhost/bludata/projeto-teste/public/empresa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+###
+
+POST http://localhost/bludata/projeto-teste/public/empresa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+<> 2018-11-29T073400.500.html
+
+###
+
+POST http://localhost/bludata/projeto-teste/public/empresa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+###
+
+POST http://localhost/bludata/projeto-teste/public/empresa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+###
+
+POST http://localhost/bludata/projeto-teste/public/empresa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+<> 2018-11-29T072547.200.html
+
+###
+
+POST http://localhost/bludata/projeto-teste/public/empresa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+###
+
+POST http://localhost:8000/empresa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+###
+
+POST http://localhost/bludata/projeto-teste/public/empresa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+###
+
+POST http://localhost/bludata/projeto-teste/public/empresa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+###
+
+POST http://localhost/bludata/projeto-teste/public/empresa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+<> 2018-11-29T072323.200.html
+
+###
+
+POST http://localhost/bludata/projeto-teste/public/empresa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+<> 2018-11-29T072306.200.html
+
+###
+
+POST http://localhost/bludata/projeto-teste/public/empresa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+<> 2018-11-29T071219.200.html
+
+###
+
+POST http://localhost/bludata/projeto-teste/public/empresa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+<> 2018-11-29T071158.200.json
+
+###
+
+POST http://localhost/bludata/projeto-teste/public/empresa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+<> 2018-11-29T071153.200.html
+
+###
+
+POST http://localhost/bludata/projeto-teste/public/empresa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"estado_id": 1,"nome_fant":"Beto Soluções","cnpj":"03.902.674.0001-70"}
+
+<> 2018-11-29T071142.200.html
+
+###
+
