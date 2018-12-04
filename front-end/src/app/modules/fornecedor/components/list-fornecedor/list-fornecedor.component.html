@@ -1,0 +1,64 @@
+<div class="alert alert-success" [hidden]="successMessage == ''" role="alert">
+  {{successMessage}}
+</div>
+<div class="alert alert-danger" [hidden]="errorMessage == ''" role="alert">
+  {{errorMessage}}
+</div>
+
+<fieldset>
+  <legend>Filtros</legend>
+  <form>
+    <div class="row">
+      <div class="col-md-3 form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" [(ngModel)]="filter.nome" class="form-control" />
+      </div>
+      <div class="col-md-3 form-group">
+        <label for="cpf_cnpj">CPF/CNPJ:</label>
+        <input type="text" id="cpf_cnpj" name="cpf_cnpj" [(ngModel)]="filter.cpf_cnpj" class="form-control" />
+      </div>
+      <div class="col-md-3 form-group">
+        <label for="data_cad_ini">Cadastrados de:</label>
+        <input type="date" id="data_cad_ini" name="data_cad_ini" [(ngModel)]="filter.data_cad_ini" class="form-control" />
+      </div>
+      <div class="col-md-3 form-group">
+        <label for="data_cad_ini">Até cadastrados a:</label>
+        <input type="date" id="data_cad_fim" name="data_cad_fim" [(ngModel)]="filter.data_cad_fim" class="form-control" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 form-group text-center">
+        <button class="btn btn-primary" (click)="listFornecedores()">Buscar</button>
+      </div>
+    </div>
+  </form>
+</fieldset>
+
+<fieldset>
+  <legend>Listagem de fornecedores</legend>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Nome</th>
+        <th>Data do cadastro</th>
+        <th>Empresa</th>
+        <th>Dados</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let fornecedor of fornecedores">
+      <td>{{fornecedor.id}}</td>
+      <td>{{fornecedor.nome}}</td>
+      <td>{{fornecedor.data_cad | date: 'dd/MM/yyyy'}}</td>
+      <td>{{fornecedor.emp_nome_fant}}</td>
+      <td [innerHTML]="formatFields(fornecedor)"></td>
+      <td>
+        <a [routerLink]="['/fornecedor', fornecedor.id]" ><fa class="icone" name="edit"></fa></a>
+         <a (click)="deleteFornecedor(fornecedor.id)" href="javascript:" ><fa class="icone" name="trash"></fa></a>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</fieldset>

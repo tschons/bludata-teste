@@ -1,0 +1,35 @@
+<div class="alert alert-success" [hidden]="successMessage == ''" role="alert">
+  {{successMessage}}
+</div>
+<div class="alert alert-danger" [hidden]="errorMessage == ''" role="alert">
+  {{errorMessage}}
+</div>
+<table class="table table-striped" [hidden]="!forn_id">
+  <thead>
+  <tr>
+    <th>Telefone</th>
+    <th>Ações</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let telefone of telefones">
+    <td>{{telefone.numero}}</td>
+    <td>
+      <a (click)="deleteTelefone(telefone.id)" href="javascript:" ><fa class="icone" name="trash"></fa></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <form class="form-inline">
+        <div class="form-group">
+          <label for="numero">Número:</label>
+           <input type="text" id="numero" name="numero" [(ngModel)]="telefone.numero" class="form-control" mask="(00)00000-0000" />
+        </div>
+      </form>
+    </td>
+    <td>
+      <button class="btn btn-primary" (click)="saveTelefone()">Adicionar</button>
+    </td>
+  </tr>
+  </tbody>
+</table>

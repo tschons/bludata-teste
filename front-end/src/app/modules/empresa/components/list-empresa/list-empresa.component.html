@@ -1,0 +1,33 @@
+<div class="alert alert-success" [hidden]="successMessage == ''" role="alert">
+  {{successMessage}}
+</div>
+<div class="alert alert-danger" [hidden]="errorMessage == ''" role="alert">
+  {{errorMessage}}
+</div>
+
+<fieldset>
+  <legend>Listagem de empresas</legend>
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th>#</th>
+      <th>Nome</th>
+      <th>Estado</th>
+      <th>CNPJ</th>
+      <th>Ações</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let empresa of empresas">
+      <td>{{empresa.id}}</td>
+      <td>{{empresa.nome_fant}}</td>
+      <td>{{empresa.est_nome}}</td>
+      <td>{{empresa.cnpj}}</td>
+      <td>
+        <a [routerLink]="['/empresa', empresa.id]" ><fa class="icone" name="edit"></fa></a>
+         <a (click)="deleteEmpresa(empresa.id)" href="javascript:" ><fa class="icone" name="trash"></fa></a>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</fieldset>
